@@ -11,7 +11,7 @@ Mauri
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
+hola
 
 # Fortran module files
 *.mod
