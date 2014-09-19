@@ -1,28 +1,16 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-Mauri
+#include <iostream>
 
-# Precompiled Headers
-*.gch
-*.pch
+using namespace std;
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-hola
+int main() {
 
-# Fortran module files
-*.mod
+	int x;
+	cout << "ingrese un numero" << endl;
+	cin >> x;
+	if (x==1) { cout << "hola mundo" << endl;}
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
 
-# Executables
-*.exe
-*.out
-*.app
+
+    return 0;
+
+}
